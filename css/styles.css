@@ -1,9 +1,16 @@
 body {
-  background-color: #383838;
+  background-color: #333;
   margin: 0;
   padding: 40px;
   color: #fff;
   font-family: 'Merriweather', serif;
+}
+
+a, a:visited{
+  color: #fff;
+}
+a:hover{
+  color: #ddd;
 }
 
 h1, h2, h3 {
@@ -16,6 +23,19 @@ h1, h2 {
   font-size: 90px;
 }
 
+@media (max-width: 1000px){
+  h1, h2 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 800px){
+  h1, h2 {
+    font-size: 50px;
+  }
+}
+
+
 ul {
   list-style-type: none;
   margin: 100px 0 0 0;
@@ -24,7 +44,7 @@ ul {
 }
 
 ul li {
-  margin-top:30px;
+  margin-top:50px;
 }
 
 ul h3 {
@@ -35,5 +55,12 @@ ul p {
   font-size: 30px;
   padding: 0;
   margin: 0;
-  color: #d0d0d0;
+  color: #ccc;
+  font-weight: 300;
+}
+
+ul .sub {
+  font-size: 16px;
+  color: #a5a5a5;
+  padding-top: 5px;
 }
