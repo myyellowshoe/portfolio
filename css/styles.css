@@ -4,7 +4,7 @@ body {
   padding: 40px;
   color: #fff;
   font-family: 'Merriweather', serif;
-  transition: background 5s;
+  transition: background 5s ease;
 }
 
 body.theme_one  {
@@ -20,7 +20,7 @@ body.theme_four  {
   background-color: #308645;
 }
 body.theme_five  {
-  background-color: #dd8e3a;
+  background-color: #cc6c08;
 }
 
 a, a:visited{
@@ -42,7 +42,7 @@ h1, h2 {
 
 ul {
   list-style-type: none;
-  margin: 100px 0 0 0;
+  margin: 100px 0 100px 0;
   padding: 0;
   display: inline-block;
 }
@@ -61,6 +61,11 @@ ul p {
   margin: 0;
   color: #ccc;
   font-weight: 300;
+  transition: color 5s ease;
+}
+
+.theme_two ul p, .theme_five ul p {
+  color: #fff;
 }
 
 ul .sub {
