@@ -4,6 +4,23 @@ body {
   padding: 40px;
   color: #fff;
   font-family: 'Merriweather', serif;
+  transition: background 5s;
+}
+
+body.theme_one  {
+  background-color: #333;
+}
+body.theme_two  {
+  background-color: #df4e4e;
+}
+body.theme_three  {
+  background-color: #47427d;
+}
+body.theme_four  {
+  background-color: #308645;
+}
+body.theme_five  {
+  background-color: #dd8e3a;
 }
 
 a, a:visited{
