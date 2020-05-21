@@ -3,40 +3,44 @@ body {
   margin: 0;
   padding: 40px;
   color: #fff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   transition: background 5s ease;
 }
 
-body.theme_one  {
+body.theme_one {
   background-color: #333;
 }
-body.theme_two  {
+body.theme_two {
   background-color: #df4e4e;
 }
-body.theme_three  {
+body.theme_three {
   background-color: #47427d;
 }
-body.theme_four  {
+body.theme_four {
   background-color: #308645;
 }
-body.theme_five  {
+body.theme_five {
   background-color: #cc6c08;
 }
 
-a, a:visited{
+a,
+a:visited {
   color: #fff;
 }
-a:hover{
+a:hover {
   color: #ddd;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 90px;
 }
 
@@ -48,7 +52,7 @@ ul {
 }
 
 ul li {
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 ul h3 {
@@ -64,7 +68,8 @@ ul p {
   transition: color 5s ease;
 }
 
-.theme_two ul p, .theme_five ul p {
+.theme_two ul p,
+.theme_five ul p {
   color: #fff;
 }
 
@@ -74,24 +79,25 @@ ul .sub {
   padding-top: 5px;
 }
 
-
-@media (max-width: 1000px){
-  h1, h2 {
+@media (max-width: 1000px) {
+  h1,
+  h2 {
     font-size: 70px;
   }
 }
 
-@media (max-width: 800px){
-  h1, h2 {
+@media (max-width: 800px) {
+  h1,
+  h2 {
     font-size: 50px;
   }
 }
 
-@media (max-width: 500px){
-  ul h3{
+@media (max-width: 500px) {
+  ul h3 {
     font-size: 38px;
   }
-  ul p{
+  ul p {
     font-size: 28px;
   }
 }
