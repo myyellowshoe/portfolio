@@ -41,25 +41,25 @@ h3 {
 
 h1,
 h2 {
-  font-size: 90px;
+  font-size: 5.6rem;
 }
 
 ul {
   list-style-type: none;
   margin: 100px 0 100px 0;
   padding: 0;
-  display: inline-block;
+  display: block;
 }
 
-ul li {
+ul.work li {
   margin-top: 50px;
 }
 
-ul h3 {
+ul.work h3 {
   font-size: 50px;
 }
 
-ul p {
+ul.work p {
   font-size: 30px;
   padding: 0;
   margin: 0;
@@ -73,8 +73,8 @@ ul p {
   color: #fff;
 }
 
-ul .sub {
-  font-size: 16px;
+ul.social li {
+  font-size: 25px;
   color: #a5a5a5;
   padding-top: 5px;
 }
