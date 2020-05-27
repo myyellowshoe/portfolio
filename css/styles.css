@@ -1,7 +1,7 @@
 body {
   background-color: #333;
   margin: 0;
-  padding: 40px;
+  padding: 2.5rem;
   color: #fff;
   font-family: "Merriweather", serif;
   transition: background 5s ease;
@@ -52,15 +52,15 @@ ul {
 }
 
 ul.work li {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 ul.work h3 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 ul.work p {
-  font-size: 30px;
+  font-size: 1.875rem;
   padding: 0;
   margin: 0;
   color: #ccc;
@@ -74,30 +74,30 @@ ul.work p {
 }
 
 ul.social li {
-  font-size: 25px;
+  font-size: 1.3625rem;
   color: #a5a5a5;
-  padding-top: 5px;
+  padding-top: 0.625rem;
 }
 
 @media (max-width: 1000px) {
   h1,
   h2 {
-    font-size: 70px;
+    font-size: 4.375rem;
   }
 }
 
 @media (max-width: 800px) {
   h1,
   h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
 
 @media (max-width: 500px) {
   ul h3 {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   ul p {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
