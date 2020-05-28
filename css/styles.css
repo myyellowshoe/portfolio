@@ -54,6 +54,10 @@ ul {
 ul.work li {
   margin-top: 3.125rem;
 }
+ul.work li span {
+  margin-top: 0.613rem;
+  display: inline-block;
+}
 
 ul.work h3 {
   font-size: 3.125rem;
